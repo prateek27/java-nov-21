@@ -8,7 +8,7 @@ Output
 4532
 
 
-2. Write pseudocode for finding GCD of two Number.
+2. Write pseudocode for finding GCD of two number.
 
 3. Write pseudocode for to print all primes in the range A to B. where A and B are inputs.
 
@@ -25,6 +25,35 @@ Output:
 N = 15, 30, 60, 105
 
 GCD: 15
+
+
+5. Diamond Pattern
+==============================
+//// Homework : Full Diamond
+==============================
+
+N = 3
+
+  *
+
+ ***
+
+******
+ 
+ ***
+
+  *
+
+===================
+LCM Formula:
+
+ LCM = (a*b)/gcd
+
+===================
+ ith Term of AP
+
+Ti = a + (i-1)*d
+
 
 
 
