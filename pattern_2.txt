@@ -1,0 +1,57 @@
+                1
+
+               232
+
+              34543
+
+             4567654
+
+            567898765
+
+Observation:
+1) Every row starts with value equal to row number.
+2) We have to print N rows.
+3) Every row has  N-i spaces, i numbers in increasing order followed by i-1 numbers in decreasing order.
+
+
+Code
+=====
+Read N 
+i = 1
+while i <= N {
+    
+    //Spaces
+    cnt = 1
+    while cnt <= N - i {
+        print(" ")
+        cnt = cnt + 1;
+    }
+
+    // Increasing Order
+    cnt = 1
+    val = i
+    while cnt <= i{
+        print(val)
+        val = val + 1
+        cnt = cnt + 1
+    }
+
+    //Decreasing Order
+    val = val - 2
+    cnt = 1
+    while cnt <= i - 1 {
+        print(val)
+        val = val - 1
+        cnt = cnt + 1
+    }
+
+    //new line
+    print("\n")
+    i = i + 1
+}
+
+
+
+
+
+
