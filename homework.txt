@@ -1,0 +1,30 @@
+
+
+1. Given a Number N, print the reverse of that number
+
+N = 2354
+
+Output
+4532
+
+
+2. Write pseudocode for finding GCD of two Number.
+
+3. Write pseudocode for to print all primes in the range A to B. where A and B are inputs.
+
+A = 10
+B = 20
+
+Output:
+11, 13, 17, 19
+
+
+
+4. Take Input N Numbers, and find their GCD (Optional)
+
+N = 15, 30, 60, 105
+
+GCD: 15
+
+
+
